@@ -52,11 +52,11 @@ echo "<pre>";
 print_r($res5);
 echo "</pre>";
 
-$url6 = 'http://numbersapi.com/2022/year';
-$res6 = file_get_contents($url6);
-echo "<pre>";
-print_r($res6);
-echo "</pre>";
+//$url6 = 'http://numbersapi.com/2022/year';
+//$res6 = file_get_contents($url6);
+//echo "<pre>";
+//print_r($res6);
+//echo "</pre>";
 
 $url7 = 'http://www.boredapi.com/api/activity/';
 $res7 = file_get_contents($url7);
@@ -82,4 +82,3 @@ $dollar = get_object_vars($exchange_rates[1]);
 echo "Евро КУПЛЯЮТЬ: " . round($euro['buy'],1) . "<br>" . "Евро ПРОДАЮТЬ: " . round($euro['sale'],3);
 echo "<br><hr>";
 echo "Доллар КУПЛЯЮТЬ: " . round($dollar['buy'],1) . "<br>" . "Доллар ПРОДАЮТЬ: " . round($dollar['sale'],3);
-
